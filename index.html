@@ -1,0 +1,78 @@
+<!-- 
+
+    Author:   Bruno DaSilva
+    Date:     10/01/2019
+    HomeWork: w5d3
+    File: index.html
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Space Battle</title>
+
+    <!--CSS Style link -->
+    <link rel="stylesheet" href="../spacebattle/CSS/style.css" />
+
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Mansalva&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <audio src="../spacebattle/sound/Star Wars Battle Theme FULL.mp3" id="theme-song"></audio>
+    <header id="landingPage">
+      <br />
+      <br />
+      <br />
+      <div class="title">
+        <br />
+        <br />
+
+        <h1>Space Battle</h1>
+        <p>USS Schwarzenegger</p>
+        <br />
+      </div>
+
+      <div class="score-board">
+        <p>Lives: <span id="heroLives" style="color: rgb(241, 214, 57);">0</span></p>
+        <p>Enemies: <span id="enemyDeath" style="color:rgb(212, 71, 71)">0</span></p>
+      </div>
+
+      
+
+      <div id="hero"></div>
+      <div id="enemy"></div>
+      <div id="atomicBanana"></div>
+      <div id="enemyAttack"></div>
+      <div id="winner"></div>
+      <div id="gameOver"></div>
+      <div>
+      <br />
+      <br />
+      <div class="header-nav">
+        <nav>
+          <a type="button" onclick="startGame() ">Start <i class="far fa-play-circle"></i></a>
+          <a></a>
+          <a></a>
+          <a type="button" onclick="reloadWindow() ">Re-Start <i class="fas fa-redo-alt"></i></a>
+        </nav>
+      </div>
+    </header>
+
+    <!--JS Main App-->
+    <script src="app.js"></script>
+  </body>
+</html>
