@@ -1,5 +1,13 @@
-# spacebattle
-A re-creation of the classic Space Invader game built with HTML, CSS and vanilla JavaScript. 
+# Space Battle
+A re-creation of the classic Space Invader. 
 
+### Tools: 
 
-Gme demo here: https://dasilvabrunotexas.github.io/spacebattle/
+  1 - HTML
+  2 - CSS 
+  3 - Vanilla JavaScript
+  4 - Adobe Illustrator 
+
+Images resources: https://www.freepik.com/popular-vectors
+
+#### Game demo here: https://dasilvabrunotexas.github.io/spacebattle/
