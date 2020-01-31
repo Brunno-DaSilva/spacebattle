@@ -1,4 +1,5 @@
-# Space Battle
+# Space Battle :alien:
+
 A re-creation of the classic Space Invader. 
 
 ### Tools: 
